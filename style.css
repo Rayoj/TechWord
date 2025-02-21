@@ -18,3 +18,7 @@
 .intro-cards {
     margin: 0 2em;
 }
+.opacity-low {
+    opacity: 0.5; /* Adjust the opacity as needed */
+  }
+  
