@@ -35,10 +35,7 @@
     }
   },
   "topbarLinks": [
-    {
-      "name": "Service Status",
-      "url": "https://status.themoviedb.org/"
-    },
+   
     {
       "name": "Support",
       "url": "https://www.themoviedb.org/talk/category/5047958519c29526b50017d6"
