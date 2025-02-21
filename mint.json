@@ -55,7 +55,7 @@
       "url": "home"
     },
     {
-      "name": "OpenAPI Docs",
+      "name": "API Reference",
       "openapi": "/openapi.json",
       "url": "openapi"
   },
