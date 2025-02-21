@@ -4,6 +4,85 @@ description: 'Welcome to the home of your new documentation'
 mode: "custom"
 ---
 
+<Tabs>
+<Tab title={
+  <div className="flex items-center gap-2">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="20" height="20" />
+    Shell
+  </div>
+}>
+
+  ```
+    curl -X GET "https://api.themoviedb.org/3/authentication" \ -H "Authorization: Bearer YOUR_API_KEY"
+  ```
+</Tab>
+
+<Tab title={
+  <div className="flex items-center gap-2">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20" height="20" />
+    Python
+  </div>
+}>
+  ```python
+    import requests
+
+    url = "https://api.themoviedb.org/3/authentication"
+    headers = {"Authorization": "Bearer YOUR_API_KEY"}
+    response = requests.get(url, headers=headers)
+
+    print(response.json())
+  ```
+</Tab>
+
+<Tab title={
+  <div className="flex items-center gap-2">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" width="20" height="20" />
+    Ruby
+  </div>
+}>
+  ```ruby
+    require 'net/http'
+    require 'json'
+
+    url = URI("https://api.themoviedb.org/3/authentication")
+    req = Net::HTTP::Get.new(url)
+    req["Authorization"] = "Bearer YOUR_API_KEY"
+
+    res = Net::HTTP.start(url.host, url.port, use_ssl: true) { |http| http.request(req) }
+    puts res.body
+  ```
+</Tab>
+
+<Tab title={
+  <div className="flex items-center gap-2">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="20" height="20" />
+    Node.js
+  </div>
+}>
+```javascript
+  const fetch = require('node-fetch');
+
+  const url = "https://api.themoviedb.org/3/authentication";
+  const options = {
+    method: "GET",
+    headers: {
+      "Authorization": "Bearer YOUR_API_KEY"
+    }
+  };
+
+  fetch(url, options)
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error("Error:", error));
+
+
+
+---
+title: Introduction
+description: 'Welcome to the home of your new documentation'
+mode: "custom"
+---
+
 import Styles from '/style.css';
 
 
