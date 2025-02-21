@@ -56,8 +56,7 @@
     },
     {
       "name": "API Reference",
-      "url": "api-reference",
-      "openapi": "/api-reference/TMDB-OAS.yaml"
+      "openapi": "/openapi.json"
     },
     {
       "name": "Quick Reference Guide",
