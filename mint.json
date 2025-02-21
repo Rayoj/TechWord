@@ -21,7 +21,6 @@
   "topbar": {
   "style": "gradient"
   },
-  "versions": ["v3 - stable"],
   "colors": {
     "primary": "#12B6DC",
     "light": "#12B6DC",
