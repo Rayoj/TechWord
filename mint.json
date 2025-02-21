@@ -22,16 +22,16 @@
   "style": "gradient"
   },
   "colors": {
-    "primary": "#12B6DC",
-    "light": "#12B6DC",
-    "dark": "#12B6DC",
+    "primary": "#90cea1",
+    "light": "#90cea1",
+    "dark": "#90cea1",
     "background": {
       "light": "#FEFEFE",
       "dark": "#01070C"
     },
     "anchors": {
       "from": "#6EC1A9",
-      "to": "#12B6DC"
+      "to": "#90cea1"
     }
   },
   "topbarLinks": [
