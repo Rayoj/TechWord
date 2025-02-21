@@ -79,11 +79,14 @@
     {
       "group": "Quick Reference",
       "pages": [
-        "quick-reference/libraries",
         "quick-reference/glossary",
         "quick-reference/faq",
-        "quick-reference/miscellenous",
-        "quick-reference/changelog"
+        "quick-reference/errorcodes",
+        "quick-reference/roadmap",
+        "quick-reference/v3vsv4",
+        "quick-reference/ratelimit"
+
+
       ]
     },
     {
