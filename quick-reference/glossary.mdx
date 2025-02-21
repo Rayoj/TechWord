@@ -1,26 +1,28 @@
 ---
-title: 'Glossary'
-description: 'List of commonly used words on TMDB and their meaning'
-icon: 'list'
+title: 'Error Codes'
+description: 'This section contains a list of possible errors you might come across when using our API and how you can resolve the error.'
 ---
 
-|Words|Meaning | 
-|------|-------------| 
-|Account|TMDB user account| 
-|Account State|rating, watchlist and favourite status of an account | 
-|Backdrop|painted cloth hung at the back of a theatre stage as part of the scenery. | 
-|Certifications| Ratings used to classify movies/Tv shows based on content and are used to guide audience viewing, ensuring appropriate content for different age groups and sensitivities | 
-|Changes| Recent changes for a movie | 
-|Collection| Movie collections | 
-|Company| The brand which produces the movie | 
-|Credits| Recognition to individuals who contributed to the movie/Tv show creation | 
-|Episodes| A self-contained narrative unit within a larger movie or TV show|
-|Episode group| Group of episodes that have been added to a movie or TV show
-|Recommendations| 405 | 
-|Region| List of countries where a movie is made available| 
-|Request token| A temporarily token used to authenticate a user’s account on TMDB |
-|Review| Opinions on a movie or TV show |  
-|Series|A collection of related movies or TV shows | 
-|Session|A special kind of token that allows for user priviledges on TMDB | 
-|Screened Theatrically| Screened/displayed in a theatre setting |
-|Watch providers| Companies that broadcasts or streams a particular movie |  
+| Codes         | HTTP Status       | Message         |
+| ------------- | ----------------- | --------------- |
+| 1             | 200               | Success         |
+| 2             | 501               | Invalid service |
+| 3             | 401               | Authentication failed |
+| 4             | 405               | Invalid format |
+| 5             | 422               | Invalid parameters: Your request parameters are incorrect. |
+| 6             | 404               | Invalid id: The pre-requisite id is invalid or not found. |
+| 7             | 403               | Duplicate entry: The data you tried to submit already exists. |
+| 8             | 503               | Service offline: This service is temporarily offline, try again later. |
+| 9             | 401               | Suspended API key: Access to your account has been suspended, contact TMDB.|
+| 10            | 500               | Internal error: Something went wrong, contact TMDB.|
+| 11            | 201               | The item/record was updated successfully.|
+| 12            | 200               | The item/record was deleted successfully.
+| 13            | 401               | Authentication failed.|
+| 14            | 500               | Failed.|
+| 15            | 401               | Device denied.|
+| 16            | 401               | Session denied.
+| 17            | 400               | Validation failed.|
+| 18            | 406               | Invalid accept header.|
+| 19            | 422               | Invalid date range: Should be a range no longer than 14 days.|
+| 20            | 200               | Entry not found: The item you are trying to edit cannot be found.|
+
