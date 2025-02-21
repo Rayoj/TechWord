@@ -55,10 +55,10 @@
       "url": "home"
     },
     {
-      "name": "API Reference",
+      "name": "OpenAPI Docs",
       "openapi": "/openapi.json",
-      "url": "api-reference"
-    },
+      "url": "openapi"
+  },
     {
       "name": "Quick Reference Guide",
       "url": "quick-reference"
