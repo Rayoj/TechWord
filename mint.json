@@ -76,7 +76,7 @@
       "group": "API Essentials",
       "pages": [
         "quick-reference/faq",
-        "quick-reference/errors-ratelimit",
+        "quick-reference/errorlimit",
         "quick-reference/roadmap",
         "quick-reference/v3vsv4",
         "quick-reference/ratelimit"
