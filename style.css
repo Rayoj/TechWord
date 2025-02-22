@@ -28,4 +28,7 @@
   .bg-green-500:hover {
     background-color: #7bb98b; /* Optional darker shade for hover effect */
   }
+  .text-black{
+    color: black;
+  }
   
