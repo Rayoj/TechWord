@@ -6,18 +6,54 @@ iconType: "solid"
 ---
 
 ##
-The TMDB API supports multiple languages, allowing developers to retrieve localized movie and
-TV show data based on user preferences. This is useful for applications that cater to an international 
-audience and need translated titles, descriptions, and other metadata.
+TMDb provides robust support for multiple languages, allowing you to interact with the API in different languages and retrieve localized content. 
+This is essential for global users and developers who need to present information tailored to various linguistic and regional preferences.
 
-The API allows you to specify a language using the language parameter in your requests. TMDB follows the
-`ISO 639-1` and `ISO 3166-1` language codes, such as:
+## How Languages Work on TMDb
 
-- en-US → English (United States)
-- fr-FR → French (France)
-- es-ES → Spanish (Spain)
-- ja-JP → Japanese (Japan)
-- If no language is specified, the API defaults to English (en-US).
+1. Language Parameter in API Requests
+When making requests to the TMDb API, you can specify a language parameter to receive data in your preferred language. If the requested data is not available in the specified language, TMDb will return it in the default language (usually English).
+For example, when retrieving movie details, you can append the language parameter to the API request:
+
+https://api.themoviedb.org/3/movie/{movie_id}?language=fr
+
+2. Supported Languages
+TMDb supports a wide range of languages. Some common examples include:
+
+- en (English)
+- fr (French)
+- es (Spanish)
+- de (German)
+- it (Italian)
+- ja (Japanese)
+- zh (Chinese)
+and many more...
+
+> You can check the full list of supported languages on the TMDb API documentation or by querying the API for available language options.
+
+3. Localized Content
+In addition to language-specific metadata (like titles, descriptions, and genres), TMDb provides localized content for movies, TV shows, and keywords. For example, a movie might have a different title in different languages, or the synopsis might be written in the language of the user.
+
+4. Changing Language on the Website
+On the TMDb website, users can change their preferred language from the account settings. This preference is reflected across the site and API responses when logged in.
+
+5. Fallback Language
+If the requested language data isn't available, TMDb will default to English. For example, if you request content in French but it's not available, the API will return the English version of the content.
+
+## Examples
+
+- Movie Information in Spanish:
+
+https://api.themoviedb.org/3/movie/{movie_id}?language=es
+
+- TV Show Information in Italian:
+
+https://api.themoviedb.org/3/tv/{tv_id}?language=it
+
+## Language Codes
+
+- Each language has a specific ISO 639-1 code (like en for English, fr for French, etc.) which should be used when making requests to the TMDb API.
+
 
 <Note>
 Images do not yet support the `language-COUNTRY` notation. This will be improved in the future. Take a 
