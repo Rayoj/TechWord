@@ -58,14 +58,11 @@
     {
       "name": "API Essentials",
       "url": "quick-reference"
-    },
-    {
-      "name": "Changelog",
-      "url": "changelog"
     }
+
   ],
   "primaryTab": {
-    "name": "Home"
+    "name": "Documentation"
 },
   "navigation": [
     {
@@ -79,7 +76,7 @@
       "group": "API Essentials",
       "pages": [
         "quick-reference/faq",
-        "quick-reference/errorcodes",
+        "quick-reference/errors-ratelimits",
         "quick-reference/roadmap",
         "quick-reference/v3vsv4",
         "quick-reference/ratelimit"
