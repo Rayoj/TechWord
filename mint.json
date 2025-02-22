@@ -91,7 +91,6 @@
     {
       "group": "Getting Started",
       "pages": [
-        "api-reference/conceptual/introduction",
         "api-reference/conceptual/obtain-key",
         "api-reference/conceptual/authentication",
         "api-reference/conceptual/endpoint-overview",
