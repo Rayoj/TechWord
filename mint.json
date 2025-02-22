@@ -66,7 +66,7 @@
 },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Overview",
       "pages": [
         "introduction",
         "authentication"
@@ -76,7 +76,7 @@
       "group": "API Essentials",
       "pages": [
         "quick-reference/faq",
-        "quick-reference/errors-ratelimits",
+        "quick-reference/errors-ratelimit",
         "quick-reference/roadmap",
         "quick-reference/v3vsv4",
         "quick-reference/ratelimit"
