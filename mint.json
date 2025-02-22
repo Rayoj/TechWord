@@ -47,8 +47,8 @@
   },
   "tabs": [
     {
-      "name": "Home",
-      "url": "home"
+      "name": "Documentation",
+      "url": "documentation"
     },
     {
       "name": "API Reference",
@@ -56,7 +56,7 @@
       "url": "openapi"
   },
     {
-      "name": "Quick Reference Guide",
+      "name": "API Essentials",
       "url": "quick-reference"
     },
     {
@@ -76,9 +76,8 @@
       ]
     },
     {
-      "group": "Quick Reference",
+      "group": "API Essentials",
       "pages": [
-        "quick-reference/glossary",
         "quick-reference/faq",
         "quick-reference/errorcodes",
         "quick-reference/roadmap",
