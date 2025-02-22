@@ -6,32 +6,33 @@ icon: "bookmark-slash"
 
 ##
 
-Many community-contributed wrappers and libraries have been developed to simplify working with the 
-TMDB API. These tools abstract away low-level details like authentication, URL formatting, and error 
-handling, allowing you to integrate TMDB data into your projects more efficiently.
-Here are some of popular wrappers.
+Many developers have created community-contributed wrappers and libraries to make working with the TMDB API easier. 
+These tools handle tasks such as authentication, URL formatting, and error management, streamlining the integration of TMDB data into your projects. 
+Below are some of the most popular wrappers.
 
-- **Python:**  
-  - <a href="https://github.com/AnthonyBloomer/tmdbv3api" target="_self">tmdbv3api</a> – A Python wrapper that simplifies API calls and data parsing.  
-  - <a href="https://github.com/celiao/tmdbsimple" target="_self">tmdbsimple</a> – Another lightweight Python library for interacting with TMDB.
+- **Ruby:**  
+  - <a href="https://github.com/18Months/themoviedb-api/" target="_self">tmdbv3api</a> 
+  
+  - <a href="https://github.com/ahmetabdi/themoviedb/" target="_self">tmdbsimple</a> 
 
 - **JavaScript/Node.js:**  
-  - <a href="https://www.npmjs.com/package/themoviedb" target="_self">themoviedb</a>– A Node.js module that provides an easy interface to the TMDB API.  
+  - <a href="https://www.npmjs.com/package/themoviedb" target="_self">themoviedb</a>– A Node.js module that offers a simple and intuitive interface for accessing the TMDB API.  
 
-### Benefits of Using Wrappers
+### Advantages of Using Wrappers
 
-- **Simplified API Interaction:**  
-  Wrappers reduce boilerplate code by handling the setup, request formation, and response parsing for you.
+- **Easier API Integration:**  
+  Wrappers streamline API interactions by managing setup, request formatting, and response parsing, reducing repetitive code.
 
-- **Built-in Error Handling:**  
-  Many libraries include error handling mechanisms to gracefully manage rate limits and API errors.
 
-- **Community Support & Maintenance:**  
-  Popular wrappers are often actively maintained and updated by the community, ensuring compatibility with the latest TMDB API changes.
+- **Automated Error Handling:**  
+  Many libraries come with built-in mechanisms to handle errors, including rate limits and API failures, ensuring smoother operation.
+
+- **Active Community & Updates:**  
+  Well-maintained wrappers are regularly updated by the developer community, keeping them compatible with the latest TMDB API changes.
 
 ### Getting Started Example
 
-Here’s a quick example of how to use the Python wrapper `tmdbv3api`:
+Here's a quick example of how to use the Python wrapper `tmdbv3api`:
 
 ```python
 from tmdbv3api import TMDb, Movie
