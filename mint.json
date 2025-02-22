@@ -92,9 +92,11 @@
       "group": "Getting Started",
       "pages": [
         "api-reference/conceptual/obtain-key",
+        "wrappers-library",
+        "popularity-trending",
+        "languages",
         "api-reference/conceptual/authentication",
-        "api-reference/conceptual/endpoint-overview",
-        "api-reference/conceptual/errors-ratelimits"
+        "api-reference/conceptual/endpoint-overview"
       ]
     }
   ],
