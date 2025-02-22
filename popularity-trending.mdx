@@ -6,47 +6,45 @@ icon: "arrow-up-right-dots"
 
 ## 
 
-The TMDB API offers endpoints that let you discover what’s popular and trending among movies and TV shows.
-These endpoints aggregate real-time data based on user engagement, ratings, and viewership, helping you 
-surface content that resonates with your audience.
-Here are some of popular endpoints.
+Popularity is a fairly important metric here on TMDB. 
+It helps us boost search results, adds an incredibly useful sort value for discover, and is also just kind of fun to see items chart up and down. 
 
-- **Movie Popularity:**  
-  The `/movie/popular` endpoint returns a list of movies that are currently popular. The ranking is based
-   on factors such as user ratings, vote counts, and overall engagement.
+## Movies
 
-- **TV Show Popularity:**  
-  Similarly, the `/tv/popular` endpoint provides a list of TV shows that are trending, based on similar metrics.
+- Number of votes for the day
+- Number of views for the day
+- Number of users who marked it as a "favourite" for the day
+- Number of users who added it to their "watchlist" for the day
+- Release date
+- Number of total votes
+- Previous days score
 
-These endpoints allow you to easily display popular content on your platform, ensuring your users see
-the most engaging and relevant movies and TV shows.
 
-### Trending Endpoint
+## TV Shows
 
-TMDB also offers a unified trending endpoint that spans multiple media types:
+- Number of votes for the day
+- Number of views for the day
+- Number of users who marked it as a "favourite" for the day
+- Number of users who added it to their "watchlist" for the day
+- Next/last episode to air date
+- Number of total votes
+- Previous days score
 
-- **Trending:**  
-  The `/trending/{media_type}/{time_window}` endpoint returns trending content for a specified media type 
-  and time window. You can set:
-  - **media_type:** `all`, `movie`, or `tv`
-  - **time_window:** `day` or `week`
+## People
 
-For example, a GET request to `/trending/movie/day` fetches movies trending over the past day, while `/trending/all/week` returns all media types that are trending over the week.
+- Number of views for the day
+- Previous days score
 
-### Use Cases
+<Note>
+There is no API to explore this data right now but it is something that would be a lot fun to dig into. The daily file exports do however, contain the popularity data so there is a record of the values starting on April 28, 2017.
+</Note>
 
-- **Dynamic Content Displays:**  
-  Populate your application with up-to-date lists of popular and trending movies or TV shows to keep 
-  your content fresh and engaging.
+### Trending 
 
-- **Content Recommendations:**  
-  Combine trending data with user preferences to offer personalized recommendations, enhancing user 
-  experience and retention.
+Trending is another type of "popularity" score on TMDB but unlike popularity (discussed above), trending's time windows are much shorter (daily, weekly). This helps us surface the relevant content of today (the new stuff) much easier.
 
-### Example Request
+<Info>
+Just like popularity, we track trending scores for movies, TV shows and people.
+</Info>
 
-Here's a quick example using cURL to fetch trending movies for the day:
 
-```bash
-curl --request GET \
-  --url 'https://api.themoviedb.org/3/trending/movie/day?api_key=YOUR_API_KEY'
