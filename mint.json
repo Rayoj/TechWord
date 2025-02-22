@@ -95,7 +95,6 @@
         "wrappers-library",
         "popularity-trending",
         "languages",
-        "api-reference/conceptual/authentication",
         "api-reference/conceptual/endpoint-overview"
       ]
     }
