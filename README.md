@@ -26,11 +26,11 @@ This project is a comprehensive API reference documentation for The Movie Databa
 ## 6. Building Documentation with Mintlify
 - Signed up on Mintlify and linked my GitHub account.
 - Started creating the API documentation on Mintlify, covering:
--- Introduction
--- Authentication
--- How to obtain an API key
--- API reference
--- API essentials
+- Introduction
+- Authentication
+- How to obtain an API key
+- API reference
+- API essentials
 
 - Customized the documentation’s look and feel using Mintlify components and custom CSS.
 
