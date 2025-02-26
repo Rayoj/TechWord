@@ -4,7 +4,7 @@ TMDB API Reference Documentation
 This project is a comprehensive API reference documentation for The Movie Database (TMDB), built using Mintlify. It provides developers with a structured guide to 100+ API endpoints, covering authentication, retrieving movie and TV show data, and more.
 
 ## Project Steps
-1. Setting Up TMDB API Access
+1. Setting Up TMDB API Access:
 - Created an account on TMDB.
 - Obtained the necessary credentials, including the API key.
 
