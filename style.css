@@ -11,10 +11,24 @@
 .intro-content p {
     margin-top: 0.5em;
     font-size: 28px;
-    color: #12B6DC;
+    color: #90cea1;
     font-weight: 500;
 }
 
 .intro-cards {
     margin: 0 2em;
 }
+.opacity-low {
+  opacity: 0.5; /* Adjust the opacity as needed */
+}
+.bg-green-500 {
+    background-color: #90cea1;
+  }
+  
+  .bg-green-500:hover {
+    background-color: #7bb98b; /* Optional darker shade for hover effect */
+  }
+  .text-black{
+    color: black;
+  }
+  

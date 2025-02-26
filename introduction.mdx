@@ -1,73 +1,75 @@
 ---
-title: Introduction
-description: 'Welcome to the home of your new documentation'
-mode: "custom"
+title: 'Introduction'
+description: ''
+icon: "book"
+iconType: solid
 ---
 
-import Styles from '/style.css';
+<img height="500" src="/images/ref.svg"/>
+
+Welcome to the official TMDb API documentation! Access a vast, community-driven movie and TV database. Whether you're a developer, film enthusiast, or business, our powerful API helps you integrate rich entertainment data with ease.
 
 
-<img
-  className="block dark:hidden"
-  src="/images/TMDB-Coverr.png"
-  alt="Hero Light"
-  width="100%"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/TMDB-Coverr.png"
-  alt="Hero Dark"
-/>
+- You will need to pick a language.
+- Get your credentials such as your API Access Key and API Key for authentication and authorization.
+- Please note that the API registration process is not optimized for mobile devices so you should access these pages on a desktop computer and browser.
 
-<div className="intro-content">
-  <h1>Welcome to TMDB API documentation</h1>
-  <p>Select a topic to explore</p>
-</div>
+## Getting Started
+
+To get started with the TMDB API, you need to follow the following steps:
 
 
+### Step 1  
 
-<CardGroup cols={3} className="p-6 intro-cards" >
-  <Card
-    title="Introduction"
-    icon="Book"
-    href="https://devliz.mintlify.app/api-reference/conceptual/introduction"
-  >
-    Overview and use cases of TMDB API
-  </Card>
-  <Card
-    title="Obtain API key"
-    icon="key"
-    href="https://devliz.mintlify.app/api-reference/conceptual/obtain-key"
-  >
-    Learn how to access your API key
-  </Card>
-  <Card
-    title="Authentication"
-    icon="shield"
-    href="https://devliz.mintlify.app/api-reference/conceptual/authentication"
-  >
-    Learn how to access our API reference with your key
-  </Card>
-  <Card
-    title="Endpoints Overview"
-    icon="crosshairs"
-    href="https://devliz.mintlify.app/api-reference/conceptual/endpoint-overview"
-  >
-    View all our endpoints in one place
-  </Card>
-  <Card
-    title="Errors & Rate Limits"
-    icon="triangle-exclamation"
-    href="https://devliz.mintlify.app/api-reference/conceptual/errors-ratelimits"
-  >
-   View error codes and details
-  </Card>
-  <Card
-    title="FAQs"
-    icon="block-question"
-    href="https://devliz.mintlify.app/quick-reference/faq"
-  >
-    All your questions answered in one place
-  </Card>
-</CardGroup>
+┃  
+┃ **[Create an account](https://www.themoviedb.org/signup) to get started**.   
+┃ 
+
+### Step 2  
+
+┃  
+┃ **After creating an account, [get your API Key](https://www.themoviedb.org/settings/api).**    
+┃ 
+
+### Step 3 
+
+┃  
+┃ **Know the [configuration methods](https://developer.themoviedb.org/reference/configuration-details).** **They retrieve static data lists for the database.**
+┃ 
+
+
+### Step 4  
+
+┃  
+┃ **Understand [Authentication Basics](https://developer.themoviedb.org/docs/authentication-application).**  
+┃  
+
+
+## API Base URL
+
+All endpoints in this documentation use this base URL:  
+``https://api.themoviedb.org/3``
+
+
+## Content-Type
+
+Endpoints expect and return data in the `json/application` format.
+
+
+<Info>Please note that the API registration process is not optimized for mobile devices 
+so you should access these pages on a desktop computer and browser.</Info>
+
+<Tip>
+**A a few useful tips**
++ The configuration methods are useful to get the static lists of data we use throughout the database.
+  - You can find things like the languages, countries, timezones and translations that we use. The configuration method also holds useful image information.
++ Understanding the basics of our authentication is useful. You can read about this here.
++ We enforce some amount of rate limiting on the API. You can read about that here.
+</Tip>
+
+<Callout type="warning">
+**Need Help?**  
+If you need assistance, visit our API support forum:  
+[`https://www.themoviedb.org/talk/category/5047958519c29526b50017d6`](https://www.themoviedb.org/talk/category/5047958519c29526b50017d6)
+</Callout>
 

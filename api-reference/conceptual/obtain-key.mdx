@@ -1,49 +1,109 @@
 ---
-title: 'Obtain API key'
-description: 'Learn how to get the right credential for your authentication'
+title: 'Get API key'
+description: 'Learn how to get the right credential for your authentication.'
 icon: "key"
 iconType: "solid"
 ---
 
-To access TMDB API, you'll need to authenticate with either an API key or an access token (which can be used as a bearer token).
-Follow the steps below to obtain these credentials.
+import { Callout } from "@mintlify/components";
 
-1. [Login](https://www.themoviedb.org/login) to your TMDB account (or create a new account if you don't have one).
-   You'll be redirected to your TMDB dashboard.
-   <img
-    className="block dark:hidden"
-    src="/images/tmdb-dashboard.png"
-    alt="tmbd dashboard"
-    />
-    <img
-    className="hidden dark:block"
-    src="/images/tmdb-dashboard.png"
-    alt="tmbd dashboard"
-    />
 
-2.  On the top-right corner of your dashboard, click on the account icon. From the dropdown-menu, select **settings**.
-    <img
-    className="block dark:hidden"
-    src="/images/tmdb-settings.png"
-    alt="account settings"
-    />
-    <img
-    className="hidden dark:block"
-    src="/images/tmdb-settings.png"
-    alt="account settings"
-    />
+---
 
-3.  On the **settings** menu, selet **API**. Scroll to the bottom to find the **API Read Access Token** and **API key**. You can copy any of the credentials to use for authentication.
-    <img
-    className="block dark:hidden"
-    src="/images/tmdb-credentials.png"
-    alt="API credentials"
-    />
-    <img
-    className="hidden dark:block"
-    src="/images/tmdb-credentials.png"
-    alt="API credentials"
-    />
+## Things you need to know
+
+- The API registration page is only accessible on a desktop browser, not on mobile.
+- You must accept our terms of use to receive an API key. Read them [here](#).
+- TMDb API offers two authentication methods: **API keys** and **Bearer token** authentication.
+
+<Note>
+You can use only one method at a time.
+</Note>
+
+
+---
+
+## How to Use API Key
+
+To use an API key to authenticate your request, follow these steps:
+
+### Step 1
+
+┃  
+┃ Go to your **dashboard**.   
+┃ 
+
+
+### Step 2 
+
+┃  
+┃ In the **Settings** menu on the left, select **API**.   
+┃ 
+ 
+
+<img height="200" src="/logo/1.png" />
+
+<Callout type="warning">
+Your API key contains sensitive information; therefore, you must keep it secured.
+</Callout>
+
+### Step 3  
+
+┃  
+┃ Scroll to the **API Keys** section to find your key.    
+┃ 
+
+<img height="200" src="/logo/2.png" />
+
+> Note: Your API key is sensitive—keep it secure.
+---
+
+
+## How To Use Bearer Token
+
+To use the bearer token to authenticate your request, follow these steps:
+
+
+ ### Step 1 
+
+┃  
+┃ Copy your **API Key**.   
+┃  
+
+<img height="200" src="/logo/2.png" />
+
+
+ ### Step 2 
+
+┃  
+┃ Navigate to API reference, [here](https://developer.themoviedb.org/reference/intro/authentication).   
+┃  
+
+
+### Step 3 
+
+┃  
+┃ Paste your **API Key** into the **Authorization-header** to set it.   
+┃  
+
+<img height="200" src="/logo/3.png" />
+
+
+### Step 4  
+
+┃  
+┃ Enter your **Access Token** in the value section.  
+┃  
+ 
+ <img height="200" src="/logo/3.png" />
+
+
+<Note>
+Your API key is sensitive—keep it secure.
+</Note>
+
+---
+
 
 <Info>
     Using the bearer token has an added benefit of being a single authentication process that you can
