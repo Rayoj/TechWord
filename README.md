@@ -1,32 +1,38 @@
-# Mintlify Starter Kit
+# Welcome to TMDB API Reference Docs👋
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+### Overview
+This capstone project for the TWMP API Docs cohort is a reference guide for The Movie Database (TMDB) API, built using Mintlify. It provides documentation for 100+ endpoints covering various functionalities.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+### About TMDB
+The Movie Database (TMDB) is a community-driven platform that offers an API for retrieving information on movies, TV shows, and entertainment professionals.
 
-### Development
+### Project Objective
+The primary goal of this project was to enhance the existing TMDB API documentation, focusing on information architecture and user experience.
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+### Development Process
+Audit of Existing Documentation
 
-```
-npm i -g mintlify
-```
+Conducted a thorough review of the current TMDB API docs.
+Gathered feedback from developers to identify challenges and areas for improvement.
+Identified a need for better structure and user experience enhancements.
+Endpoint Testing with Postman
 
-Run the following command at the root of your documentation (where mint.json is)
+Tested 100+ endpoints to verify their accuracy and functionality.
+Exporting to OpenAPI Specification
 
-```
-mintlify dev
-```
+Used Postman’s export feature to generate an OpenAPI spec file.
+Converted the exported JSON file into YAML using TWMP’s OpenAPI spec converter.
+Edited the YAML file in Swagger Editor and VS Code, adding detailed descriptions and components.
+Building the Documentation with Mintlify
 
-### Publishing Changes
+Imported the OpenAPI spec file into Mintlify.
+Customized the UI and improved the user experience using Mintlify components and custom CSS.
+This revamped TMDB API documentation now provides a more structured, user-friendly, and accessible reference for developers. 🚀
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
 
-#### Troubleshooting
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+
+
+
+
+
