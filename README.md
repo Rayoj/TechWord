@@ -15,14 +15,17 @@ This project is a comprehensive API reference documentation for The Movie Databa
 ## 3. Testing API Endpoints
 - Tested each TMDB API endpoint using Postman.
 - Verified responses, checked for errors, and documented different request parameters, descriptions, and expected responses.
+
 ## 4. Documenting API Endpoints in Postman
 - Created a structured Postman collection for TMDB API.
 - Documented each endpoint with details such as parameters, request/response formats, and descriptions.
+
 ## 5. Transitioning to OpenAPI Specification
 - Exported the documented API endpoints from Postman to an OpenAPI spec file.
 - Converted the JSON file to YAML using TWMP’s OpenAPI spec converter.
 - Edited and refined the OpenAPI spec using Swagger Editor and VS Code.
 - Conducted further testing to ensure accuracy.
+
 ## 6. Building Documentation with Mintlify
 - Signed up on Mintlify and linked my GitHub account.
 - Started creating the API documentation on Mintlify, covering:
@@ -36,3 +39,7 @@ This project is a comprehensive API reference documentation for The Movie Databa
 
 Conclusion
 This documentation provides a well-structured, developer-friendly reference for the TMDB API, improving accessibility, usability, and overall user experience. 
+
+Demo
+You can view the live TMDB API documentation here:
+[Live Documentation](https://rayoco.mintlify.app/introduction)
