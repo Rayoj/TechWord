@@ -1,7 +1,7 @@
 TMDB API Reference Documentation
 
 ## Project Overview
-This project is a comprehensive API reference documentation for The Movie Database (TMDB), built using Mintlify. It provides developers with a structured guide to 100+ API endpoints, covering authentication, retrieving movie and TV show data, and more.
+This project is my Capstone project for the Technical Writing Mentorship Program (TWMP) API Docs Cohort. It is a reference documentation for The Movie Database (TMDB) API, designed to help developers easily understand and utilize 100+ API endpoints for retrieving movie, TV show, and entertainment-related data.
 
 ## Project Steps
 1. Setting Up TMDB API Access:
@@ -18,10 +18,13 @@ This project is a comprehensive API reference documentation for The Movie Databa
 
 ## 4. Documenting API Endpoints in Postman
 - Created a structured Postman collection for TMDB API.
-- Documented each endpoint with details such as parameters, request/response formats, and descriptions.
+- Documented each endpoint, including:
+- Request parameters
+- Response formats
+- Detailed descriptions
 
 ## 5. Transitioning to OpenAPI Specification
-- Exported the documented API endpoints from Postman to an OpenAPI spec file.
+- Exported the documented API endpoints from Postman to an OpenAPI specification.
 - Converted the JSON file to YAML using TWMP’s OpenAPI spec converter.
 - Edited and refined the OpenAPI spec using Swagger Editor and VS Code.
 - Conducted further testing to ensure accuracy.
@@ -33,7 +36,7 @@ This project is a comprehensive API reference documentation for The Movie Databa
 - Authentication
 - How to obtain an API key
 - API reference
-- API essentials
+- API essentials etc
 
 - Customized the documentation’s look and feel using Mintlify components and custom CSS.
 
