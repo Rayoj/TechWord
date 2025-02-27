@@ -30,8 +30,8 @@ This project is my Capstone project for the Technical Writing Mentorship Program
 - Conducted further testing to ensure accuracy.
 
 ## 6. Building Documentation with Mintlify
-- Signed up on Mintlify and linked my GitHub account.
-- Started creating the API documentation on Mintlify, covering:
+i. Signed up on Mintlify and linked my GitHub account.
+ii. Started creating the API documentation on Mintlify, covering:
 - Introduction
 - Authentication
 - How to obtain an API key
