@@ -76,11 +76,17 @@ You can view the live TMDB API documentation here:
 ## Contributing
 If you’d like to contribute:
 
-Fork the repository
-Create a new branch (feature/your-feature-name)
-Make changes and commit
-Push your changes
-Submit a pull request
+1. Fork the repository
+2. Create a new branch (feature/your-feature-name)
+3. Make changes and commit
+4. Push your changes
+5. Submit a pull request
+
+## Support & Contact
+
+- Official TMDb API Docs: [](developer.themoviedb.org/docs)
+- Community Forum: [](TMDb Talk)
+- Email Support: [](support@themoviedb.org)
 
 Conclusion
 This documentation provides a well-structured, developer-friendly reference for the TMDB API, improving accessibility, usability, and overall user experience. 
