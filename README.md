@@ -67,7 +67,7 @@ mintlify dev
 
 ```
 
-Then, open http://localhost:3000 in your browser.
+Then, open `http://localhost:3000` in your browser.
 
 Conclusion
 This documentation provides a well-structured, developer-friendly reference for the TMDB API, improving accessibility, usability, and overall user experience. 
