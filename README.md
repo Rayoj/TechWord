@@ -84,9 +84,9 @@ If you’d like to contribute:
 
 ## Support & Contact
 
-- Official TMDb API Docs: [](developer.themoviedb.org/docs)
-- Community Forum: [](TMDb Talk)
-- Email Support: [](support@themoviedb.org)
+- Official TMDb API Docs: [Docs](https://developer.themoviedb.org/docs/getting-started)
+- Community Forum: [TMDb Talk](https://www.themoviedb.org/talk)
+- Email Support: [Support](support@themoviedb.org)
 
 Conclusion
 This documentation provides a well-structured, developer-friendly reference for the TMDB API, improving accessibility, usability, and overall user experience. 
