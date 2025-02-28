@@ -48,13 +48,15 @@ If this project is hosted on GitHub, you can clone it using:
  ```bash
    git clone https://github.com/your-username/tmdb-api-docs.git
 cd tmdb-api-docs
-    ```
 
+```
 
 2. Install Mintlify CLI (Optional for Local Development)
 If you want to run the documentation locally, install the Mintlify CLI:
 
+ ```bash
 npm install -g mintlify
+```
 
 3. Start the Local Server
 To preview the documentation locally, run:
