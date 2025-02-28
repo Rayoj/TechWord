@@ -69,9 +69,19 @@ mintlify dev
 
 Then, open `http://localhost:3000` in your browser.
 
-Conclusion
-This documentation provides a well-structured, developer-friendly reference for the TMDB API, improving accessibility, usability, and overall user experience. 
-
 Demo
 You can view the live TMDB API documentation here:
 [Live Documentation](https://rayoco.mintlify.app/introduction)
+
+## Contributing
+If you’d like to contribute:
+
+Fork the repository
+Create a new branch (feature/your-feature-name)
+Make changes and commit
+Push your changes
+Submit a pull request
+
+Conclusion
+This documentation provides a well-structured, developer-friendly reference for the TMDB API, improving accessibility, usability, and overall user experience. 
+
