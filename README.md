@@ -40,7 +40,7 @@ ii. Started creating the API documentation on Mintlify, covering:
 
 - Customized the documentation’s look and feel using Mintlify components and custom CSS.
 
-Installation & Setup
+## Installation & Setup
 
 1. Clone the Repository
 If this project is hosted on GitHub, you can clone it using:
